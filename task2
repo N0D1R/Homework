@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <link type="text/css" href="resources/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <title>Marketing stuff</title>
+</head>
+<body class="container">
+    <div class="jumbotron text-center">
+        <h1>Marketing stuff</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in,
+            egestas eget quam. Fusce dapibus, tellus ac cursus commodo,
+            tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+        </p>
+        <a class="btn btn-lg btn-success" role="button">Get Start today</a>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h1> Safari bug warning! </h1>
+            <p class="text-danger">
+                As of v8.0, Safari exhibits a bug in which resizing your browser horizontally
+                causes rendering errors in the justified nav that are cleared upon refreshing.
+            </p>
+            <p class="text-muted">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                tellus ac cursus commodo, tortor mauris condimentum nibh,
+                ut fermentum massa justo sit amet risus.
+                Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            </p>
+            <a class="btn btn-info" href="#" role = "button">View details</a>
+        </div>
+        <div class="col-md-4">
+            <h1> Heading </h1>
+            <p class="text-muted">
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            </p>
+            <a class="btn btn-info" href="#" role = "button">View details</a>
+        </div>
+        <div class="col-md-4">
+            <h1> Safari bug warning! </h1>
+            <p class="text-muted">
+                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
+                tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+            </p>
+            <a class="btn btn-info" href="#" role = "button">View details</a>
+        </div>
+    </div>
+    <footer class="panel-footer" style = "margin: 30px 10px 30px 10px">
+        <p class="text-muted">Copyright 2014</p>
+    </footer>
+</body>
+</html>
