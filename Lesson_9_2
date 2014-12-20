@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="resources/bootstrap/dist/css/bootstrap.css">
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <h4 class="text-uppercase text-center">Planets list</h4>
+
+        <ul class="text-center list-unstyled alert-info">
+            <li class="">Mercury</li>
+
+            <ul class="list-unstyled row container">
+                <li class="col-xs-6 bg-primary">Jupiter</li>
+                <li class="col-xs-6 alert-warning">Earth</li>
+            </ul>
+
+            <li>Pluto</li>
+        </ul>
+    </div>
+</body>
+</html>
