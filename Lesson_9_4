@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="resources/bootstrap/dist/css/bootstrap.css">
+    <title>Assignment_4</title>
+    <style>
+        .table{
+            font-size: x-large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Planets List</h1>
+
+        <table class="table table-responsive">
+            <caption>
+                <button class="btn btn-primary">Add a new cool planet</button>
+            </caption>
+            <tr>
+                <th>
+                    N
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Image
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mercury</td>
+                <td><img src="resources/images/mercury.jpg"></td>
+                <td>
+                    <button class="btn btn-primary">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jupiter</td>
+                <td><img src="resources/images/jupiter.jpg"></td>
+                <td>
+                    <button class="btn btn-primary">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Earth</td>
+                <td><img src="resources/images/earth.jpg"></td>
+                <td>
+                    <button class="btn btn-primary">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Pluto</td>
+                <td><img src="resources/images/pluto.jpg"></td>
+                <td>
+                    <button class="btn btn-primary">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+</body>
+</html>
